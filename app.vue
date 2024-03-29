@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-violet-700 p-2 w-full h-12">
-    <!-- <div v-for="link in links" :key="index" class="bg-white">
-      <NuxtLink :to="link.path">{{ link.name }}</NuxtLink>
-    </div> -->
+  <div class="bg-violet-700 w-full">
+    <h1 class="font-bold px-4 py-5">This is the project start</h1>
   </div>
-  <NuxtPage />
+  <div class="m-4 flex justify-center">
+    <UButton label="Button" size="md"/>
+  </div>
 </template>
 
 <script setup>
